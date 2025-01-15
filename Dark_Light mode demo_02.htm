@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file:///Users/m/Desktop/Dark_Light%20mode%20demo.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dark/Light mode demo</title>
+	<style>
+		*,
+		*:before,
+		*:after{
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		header {
+			height: 83px;
+			background: #0054c6;
+			display: flex;
+			color: #fff;
+			padding: 0 16px;
+			align-items: center;
+			justify-content: center;
+		}
+		nav{
+			background: #111;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 30px;
+			height: 50px;
+		}
+		nav a{
+			color: #fff;
+			font-size: 12px;
+			font-weight: bold;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+
+		}
+		h1 {
+			margin: 0 0 24px 0;
+			line-height: 1.2;
+			padding: 0 0 24px 0;
+			border-bottom: 1px solid #ccc;
+		}
+
+		main {
+			padding: 32px 16px;
+			max-width: 860px;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		section {
+			padding: 16px 32px;
+		}
+
+		section div {
+			width: 100%;
+			max-width: 768px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+			color: #000;
+		}
+
+		section div span:first-child {
+			display: none;
+		}
+
+		section div span:last-child {
+			display: block;
+		}
+
+		section div span img{
+			max-width: 400px;
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+		}
+
+		main span{
+			color: #0054c6;
+		}
+
+		footer{
+			width: 100%;
+			height: 100px;
+			background: #000;
+		}
+		footer div{
+			width: 100%;
+			height: 60px;
+			background: #0054c6;
+		}
+
+		.meta{
+			font-size: 10px;
+			font-family: Arial, Helvetica, sans-serif;
+			text-transform: uppercase;
+			line-height: 14px;
+			margin: 0 0 24px;
+		}
+
+		body.dark-mode {
+			background: #333;
+		}
+
+		.dark-mode header {
+			background: #0f60ff;
+			color: #fff;
+		}
+
+		.dark-mode h1,
+		.dark-mode p {
+			color: #fff;
+		}
+
+		.dark-mode section div {
+			color: #000;
+		}
+
+		.dark-mode section div span:first-child {
+			display: block;
+		}
+
+		.dark-mode section div span:last-child {
+			display: none;
+		}
+		.dark-mode main span{
+			color: #fff;
+		}
+		.dark-mode .meta{
+			color: #fff;
+		}
+		main img{
+			width: 100%;
+			height: auto;
+			display: block;
+			border-radius: 16px;
+		}
+	</style>
+</head>
+
+<body class="dark-mode">
+	<section>
+		<div>
+			<span>
+				<img src="./Dark_Light mode demo_02_files/banner_extrabright_light.png" alt="">
+			</span>
+			<span>
+				<img src="./Dark_Light mode demo_02_files/banner_extrabright_dark.png" alt="">
+			</span>
+		</div>
+	</section>
+	<header>
+		
+	<svg id="BangkokPost" xmlns="http://www.w3.org/2000/svg" width="300" height="55" viewBox="0 0 197 36.301">
+		<path id="Path_63" data-name="Path 63" d="M36.912,21.332a4.809,4.809,0,0,1,.892,2.911,6.9,6.9,0,0,1-1.14,3.817,12.9,12.9,0,0,1-3.521,3.434V26.8h-.758V43.031a13.073,13.073,0,0,0-4.507-.765,17.391,17.391,0,0,0-3,.3,25.737,25.737,0,0,0,3.991-3.132A5.842,5.842,0,0,0,30.2,37.235a12.121,12.121,0,0,0,.342-3.354V25.638a13.663,13.663,0,0,1,.241-3.2,3.783,3.783,0,0,1,.9-1.617,10.289,10.289,0,0,1,2.509-1.67A7.613,7.613,0,0,1,36.912,21.332Zm-5.5-3.917a17.494,17.494,0,0,1-3.26.731,16.1,16.1,0,0,1-2.126.141,11.564,11.564,0,0,1-3.314-.463,12.744,12.744,0,0,0-3-.6,3.951,3.951,0,0,0-2.3.758A5.064,5.064,0,0,0,15.7,19.9a3.83,3.83,0,0,0-.456,2.012h.04a3.669,3.669,0,0,1,1.288-1.342,2.428,2.428,0,0,1,1.523-.309,4.9,4.9,0,0,1,1.2.248,10.732,10.732,0,0,0,2.764.483,9.947,9.947,0,0,0,3.817-.745,20.847,20.847,0,0,0-3.22,2.831,6.493,6.493,0,0,0-1.268,2.395,17.245,17.245,0,0,0-.436,4.145,12.584,12.584,0,0,0-1.59-.121,3.79,3.79,0,0,0-2.837,1.147,4.9,4.9,0,0,0-1.288,3.052v.148a5.769,5.769,0,0,1,1.087-1.127,4.025,4.025,0,0,1,2.046-.563,2.468,2.468,0,0,1,2.314,1.429,6.426,6.426,0,0,1,.5,2.864h-.6a3.354,3.354,0,0,0-2.6,1.087,4.165,4.165,0,0,0-1.154,2.777,3.639,3.639,0,0,0,0,.382l.04.228a3.072,3.072,0,0,1,1.274-1.731,2.582,2.582,0,0,1,1.342-.335,1.623,1.623,0,0,1,1.241.6,2.106,2.106,0,0,1,.51,1.456,3.575,3.575,0,0,1-.443,1.61,16.956,16.956,0,0,1-2.012,2.723,15.22,15.22,0,0,0-2.053,2.871,4.2,4.2,0,0,0-.476,1.771,2.1,2.1,0,0,0,.409,1.3,1.757,1.757,0,0,0,.906.671,1.536,1.536,0,0,0,1.375-.181.671.671,0,0,0,.094-.979.416.416,0,0,0-.094-.094c-.409-.275-.6.087-1.2-.543a2.448,2.448,0,0,1-.181-1.617,3.22,3.22,0,0,1,1.342-1.885,7.6,7.6,0,0,1,4.87-1.342,12.7,12.7,0,0,1,4.7.845,10.431,10.431,0,0,1,2.851,1.71,18.11,18.11,0,0,1,10.517-4.984V35.8a9.39,9.39,0,0,0-.429-3.354,3.548,3.548,0,0,0-1.523-1.63,8.525,8.525,0,0,0-3.354-.892,18.64,18.64,0,0,0,3.622-4.132,6.788,6.788,0,0,0,1.026-3.354A5.326,5.326,0,0,0,39.9,18.877a5.688,5.688,0,0,0-2.683-1.65,36,36,0,0,0-7.291,3.206,6.251,6.251,0,0,0-2.287,2.918,19.6,19.6,0,0,0-.6,5.849v5.936a9.988,9.988,0,0,1-1.053,5.1,9.552,9.552,0,0,1-4.105,3.24,11.966,11.966,0,0,0,2.086-3.441,13.663,13.663,0,0,0,.51-4.179V27.523a10.061,10.061,0,0,1,1.3-5.332,14.757,14.757,0,0,1,4.8-4.2c.4-.228.637-.349.9-.5ZM35.7,30.568a5.56,5.56,0,0,1,2.012,1.59,4.727,4.727,0,0,1,.537,2.683h-5.1v-2.4q.677-.429,2.556-1.871Zm-2.556,8.25V35.639h5.111v3.179Zm1.388,5.406a10.063,10.063,0,0,0-1.4-.872V39.61h5.111v2.951a16.808,16.808,0,0,0-3.716,1.677Z" transform="translate(-15.24 -17.22)" fill="#fff"></path>
+		<path id="Path_64" data-name="Path 64" d="M62.144,39.13l-2.126-5.064,5.943,2.059v5.017Zm7.573-5.876a.912.912,0,0,1-.557.141,7.982,7.982,0,0,1-2.307-.5,11.966,11.966,0,0,1-2.777-1.342,4.615,4.615,0,0,1-3.6,1.838,8.458,8.458,0,0,1-1.006-.074l-.215.55,2.093,5.017a22.463,22.463,0,0,0-2.945,4.8,8.666,8.666,0,0,0-.671,3.354q0,2.683,3,5.406l5.245-4.7a6.627,6.627,0,0,0,.5,2.6,7.258,7.258,0,0,0,1.8,2.106l3.877-3.6-.382-.671c-.456.409-.724.671-.818.671a.9.9,0,0,1-.436.114.825.825,0,0,1-.671-.516,6.922,6.922,0,0,1-.288-2.6V37.54a9.054,9.054,0,0,1,.235-2.334A13.168,13.168,0,0,1,71,32.684l-.6-.268a4.313,4.313,0,0,1-.684.838ZM63.344,49.171a6.453,6.453,0,0,1-2.556-5.245,11.4,11.4,0,0,1,.986-4.2l4.186,2.187v4.829Z" transform="translate(-29.23 -21.938)" fill="#fff"></path>
+		<path id="Path_65" data-name="Path 65" d="M85.61,36.065l5.084-4.548,2.857,3,1.684-1.845.49.53a7.264,7.264,0,0,0-1.476,1.9,6.345,6.345,0,0,0-.349,2.4V46.79a3.85,3.85,0,0,0,.362,1.918c.154.275.322.416.5.416s.543-.255,1.147-.765l.423.6-3.729,3.448a6.707,6.707,0,0,1-1.858-2.18,8.532,8.532,0,0,1-.409-3.072V36.353l-1.9-1.838L85.61,37.044V48.2l1.254,1.415-3.079,2.8-3.106-2.8L82.022,48.2V38.184a7.144,7.144,0,0,0-.382-2.884c-.174-.342-.369-.51-.6-.51a2.013,2.013,0,0,0-1.046.6l-.416-.55,3.7-3.354a7.781,7.781,0,0,1,1.945,1.938,4.139,4.139,0,0,1,.382,1.965Z" transform="translate(-36.424 -21.918)" fill="#fff"></path>
+		<path id="Path_66" data-name="Path 66" d="M113.334,49.352l-2.589-2.12V34.394l4.8,1.838v10.2ZM107.21,34.394v14.22l4.112,3.354-4.112,5.366.241.671a18.561,18.561,0,0,1,5.306-.926,9.768,9.768,0,0,1,2.012.228,13.811,13.811,0,0,1,2.227.671,17.528,17.528,0,0,0,4.2-2.683,2.629,2.629,0,0,0,.791-1.8,6.932,6.932,0,0,0-1.509-3.119,8.224,8.224,0,0,1-1.221-2.281,12.6,12.6,0,0,1-.228-2.924V36.279l3.132.671v-4.4l-3.22,1.845-5.366-2.864A18.11,18.11,0,0,1,107.21,34.394ZM116.6,51.042a20.987,20.987,0,0,0,3.179,4.025l-.718.516a11.047,11.047,0,0,0-2.576-1.14,8.8,8.8,0,0,0-2.535-.376,21.642,21.642,0,0,0-3.656.416l5.239-6.754a9.33,9.33,0,0,0,1.046,3.314Z" transform="translate(-45.521 -21.932)" fill="#fff"></path>
+		<path id="Path_67" data-name="Path 67" d="M135.253,39.9V34.664L138.4,31.23l2.582,3.159Zm-.094-18.385a8.834,8.834,0,0,0-2.153,1.8,9.606,9.606,0,0,0-1.341-1.241,4.769,4.769,0,0,0-1.764-.711v.06a3.045,3.045,0,0,1,1.241,1.449,6.538,6.538,0,0,1,.523,1.543,12.511,12.511,0,0,1,.141,2.348V40.99a14.364,14.364,0,0,1-.221,3.307,2.857,2.857,0,0,1-1.006,1.274v.369a11.463,11.463,0,0,1,2.442,1.2,11.638,11.638,0,0,1,2.046,1.8l4.923-4.434a11.054,11.054,0,0,0,.523,2.683,5.661,5.661,0,0,0,1.066,1.751l4.025-3.354-.329-.631a3.655,3.655,0,0,1-1.221.791c-.127,0-.268-.127-.416-.376a12.923,12.923,0,0,1-.6-2.851,12.134,12.134,0,0,0-1.073-3.77,7.861,7.861,0,0,0-2.039-2.395l4.025-3.978-3.528-4.393-5.178,5.688V26.9a10.062,10.062,0,0,1,.449-3.515,4.863,4.863,0,0,1,1.952-2.5V20.8a7.278,7.278,0,0,0-2.482.711Zm4.7,22.054-2.542,2.354-2.053-1.6v-3.4l2.053-2.012a6.332,6.332,0,0,1,2.542,4.7Z" transform="translate(-52.992 -18.399)" fill="#fff"></path>
+		<path id="Path_68" data-name="Path 68" d="M181.749,39.9V34.664L184.9,31.23l2.576,3.159Zm-.094-18.385a8.833,8.833,0,0,0-2.18,1.8,9.255,9.255,0,0,0-1.342-1.241,4.769,4.769,0,0,0-1.764-.711v.06a3.005,3.005,0,0,1,1.241,1.449,6.252,6.252,0,0,1,.523,1.543,13.111,13.111,0,0,1,.148,2.348V40.99a14.007,14.007,0,0,1-.228,3.307,2.837,2.837,0,0,1-1.026,1.268v.369a10.189,10.189,0,0,1,4.461,2.958l4.93-4.427a10.8,10.8,0,0,0,.523,2.683A5.534,5.534,0,0,0,188,48.891l4.025-3.354-.335-.631a3.655,3.655,0,0,1-1.147.8c-.127,0-.268-.127-.416-.376a12.924,12.924,0,0,1-.6-2.851,12.557,12.557,0,0,0-1.067-3.77,7.888,7.888,0,0,0-2.032-2.354l4.025-3.978-3.535-4.393-5.171,5.688V26.9a10.061,10.061,0,0,1,.449-3.515,4.83,4.83,0,0,1,1.979-2.5V20.8a7.311,7.311,0,0,0-2.515.711Zm4.7,22.054-2.542,2.354-2.052-1.6v-3.4l2.052-2.012a6.244,6.244,0,0,1,2.535,4.662Z" transform="translate(-68.292 -18.399)" fill="#fff"></path>
+		<path id="Path_69" data-name="Path 69" d="M160.661,35.313q.885.362,3,1.476v12.5l-4.534-2.1v-12.3A8.163,8.163,0,0,1,160.661,35.313Zm.416-3.783a15.81,15.81,0,0,1-5.446,3.354V45.616a7.3,7.3,0,0,1-.248,2.254A2.964,2.964,0,0,1,154.55,49l.174.4a8.592,8.592,0,0,1,2.837.6,23.093,23.093,0,0,1,4.206,2.4,9.023,9.023,0,0,1,1.7-1.409,29.57,29.57,0,0,1,3.77-1.965V34.394A18.42,18.42,0,0,1,161.076,31.53Z" transform="translate(-61.107 -21.932)" fill="#fff"></path>
+		<path id="Path_70" data-name="Path 70" d="M223.872,21.255a23.9,23.9,0,0,1,4.206,2.918,7.1,7.1,0,0,1,1.858,2.475,23.622,23.622,0,0,1,.449,4.7h-8.767V22.985Zm-5.151,2.878a7.68,7.68,0,0,0-.6-3.126,4.528,4.528,0,0,0-1.851-1.938,5.8,5.8,0,0,0-5.5-.154,5.064,5.064,0,0,0-2.066,2.395l.114.174a4.024,4.024,0,0,1,2.683-1.026,3.575,3.575,0,0,1,2.012.6,3,3,0,0,1,1.234,1.523,8.94,8.94,0,0,1,.369,2.9v1.409l-4.474,3.394a24.015,24.015,0,0,1-3.173,2.012v.134a5.44,5.44,0,0,1,1.087.2,11.537,11.537,0,0,1,3.85,2.053,7.258,7.258,0,0,1,2.146,3,13.616,13.616,0,0,1,.6,4.407,12.074,12.074,0,0,0-4.206,1.8,10.6,10.6,0,0,0-3.756,4.769l.121.04a8.29,8.29,0,0,1,3.521-2.133,13.656,13.656,0,0,1,4.279-.926v8.244h6.506V46a16.654,16.654,0,0,1,3.132.6,28.171,28.171,0,0,1,3.776,1.469l5.366-5.493V29.753a14.665,14.665,0,0,0-.449-4.152,8.721,8.721,0,0,0-1.845-3,32.8,32.8,0,0,0-5.1-4.293l-4.836,3.642V18.29h-.852V22.5Zm0,28.842V25.2l2.093-1.6V52.975Zm-5.366-20.827a12.019,12.019,0,0,0-2.012-1.274l3.77-2.891v5.956a13.955,13.955,0,0,0-1.791-1.757Zm17.044,0v3.059h-8.72V32.181Zm0,4.025v8.68a26.828,26.828,0,0,0-4.7-2.086,16.1,16.1,0,0,0-4.065-.671V36.206Z" transform="translate(-78.439 -17.572)" fill="#fff"></path>
+		<path id="Path_71" data-name="Path 71" d="M256.657,35.313q.885.362,3,1.476v12.5l-4.541-2.1v-12.3A8.09,8.09,0,0,1,256.657,35.313Zm.416-3.783a15.675,15.675,0,0,1-5.453,3.354V45.616a7.1,7.1,0,0,1-.241,2.254A3.052,3.052,0,0,1,250.54,49l.174.4a8.593,8.593,0,0,1,2.837.6,23.1,23.1,0,0,1,4.206,2.4,9.284,9.284,0,0,1,1.7-1.409,31.026,31.026,0,0,1,3.776-1.965V34.394a18.419,18.419,0,0,1-6.164-2.864Z" transform="translate(-92.712 -21.932)" fill="#fff"></path>
+		<path id="Path_72" data-name="Path 72" d="M281.177,34.714a6.667,6.667,0,0,0,2.012-.369l-3.8,5.688-2.4-1.4V33.1A6.587,6.587,0,0,0,281.177,34.714ZM286.69,30.4a4.45,4.45,0,0,0,.315-1.643,2.086,2.086,0,0,0-.4-1.342,1.107,1.107,0,0,0-.879-.5.838.838,0,0,0-.671.362,1.489,1.489,0,0,0-.3.966,1.965,1.965,0,0,0,.671,1.342,1.04,1.04,0,0,1,.355.711,1.341,1.341,0,0,1-.543,1.006,2.2,2.2,0,0,1-1.516.483,6.439,6.439,0,0,1-1.858-.3,29.071,29.071,0,0,1-3.6-1.489,9.553,9.553,0,0,1-1.965,2.126,10.142,10.142,0,0,1-2.837,1.409v7.318l3.81,2.314-2.247,3.354-1.563,2.207c-.335.456-.6.751-.718.912a1.107,1.107,0,0,0-.362.6.671.671,0,0,0,.188.429.543.543,0,0,0,.389.221,1.415,1.415,0,0,0,.671-.409,4.212,4.212,0,0,1,2.911-1.12,5.829,5.829,0,0,1,2.012.335,9.835,9.835,0,0,1,2.287,1.2,11.89,11.89,0,0,1,2.683-2.2,7.11,7.11,0,0,1,2.649-.8v-8.23l-4.025-2.4,3.354-4.8A10.638,10.638,0,0,0,286.69,30.4ZM282.666,47.68a7.378,7.378,0,0,0-4.165-1.5,5.6,5.6,0,0,0-1.2.148,9.611,9.611,0,0,0-1.422.423l4.206-6.332L282.673,42Z" transform="translate(-99.906 -20.414)" fill="#fff"></path>
+		<path id="Path_73" data-name="Path 73" d="M296,31.98v-.812l5.279-7.378h.087l-.188,6.037h3.5V32.04h-3.5V45.234l1.952,1.623,1.113-.979.436.6-3.83,3.448a10.128,10.128,0,0,0-4.454-3.059v-.389a2.683,2.683,0,0,0,.946-1.087,5.73,5.73,0,0,0,.3-2.1V31.98Z" transform="translate(-107.68 -19.383)" fill="#fff"></path>
+	</svg>
+  
+	</header>
+	<nav>
+		<a>NEWS</a>
+		<a>THAILAND</a>
+		<a>BUSINESS</a>
+		<a>LIFE</a>
+	</nav>
+	<main>
+		<span>BUSINESS</span>
+		<h1>
+			Call for less investment in power plants
+		</h1>
+
+		<div class="meta">
+			PUBLISHED: 5 DEC 2024 AT 05:34<br>
+			NEWSPAPER SECTION: <span>BUSINESS</span>
+		</div>
+
+		<img src="./Dark_Light mode demo_02_files/image.jpg" alt="">
+
+		<p>Energy advocates are asking the government to downgrade its forecast for electricity demand in the 2024 power development plan (PDP) and promote free electricity trade to reduce power bills, which impose a huge financial burden on households and businesses.</p>
+
+		<p>The PDP, enforced from 2024 to 2037, expects power demand in Thailand to increase to 112,391 megawatts at the end of the plan, up from 51,000MW at present.</p>
+
+		<p>Higher expected power demand in the future means investment in expanding the country's electricity generation capacity or building new power plants.</p>
+
+		<p>"We should avoid adding unnecessary electricity to the system," said Piyasvasti Amranand, a member of Energy Reform for Sustainability (ERS), a group of energy technocrats and experts campaigning for better energy management.</p>
+
+		<p>"This will eventually become a financial burden for consumers."</p>
+
+		<p>Many businesses and households are less dependent on electricity from the state grid as they install rooftop solar panels to generate power themselves, leading to reduced demand for power supplied by the government, said Mr Piyasvasti.</p>
+
+		<p>The economic impact of the pandemic, which continues to this day, must be factored in to the calculation of power demand in order to determine a more appropriate figure, he said.</p>
+
+		<p>Mr Piyasvasti and ERS members called on authorities to adopt free competition in the power market, enabling supply and demand to determine electricity prices.</p>
+
+		<p>The Electricity Generating Authority of Thailand, state enterprises and power companies should be allowed to push ahead with power plant development projects and compete with one another to sell electricity to businesses and households.</p>
+
+		<p>"Power producers must take a risk as a result of competition," he said.</p>
+
+		<p>Under the PDP, renewable energy should comprise 51% of total fuel use by 2037, up from 20% at the end of last year, while coal and gas should decline to 48%, down from nearly 80% early this year.</p>
+
+		<p>The other 1% comes from nuclear energy and new energy solutions aimed at reducing fossil fuel usage and saving electricity.</p>
+
+		<p>The ERS wants the government to increase the renewables proportion because Thailand told the UN Framework Convention on Climate Change that it plans to have renewable energy make up 68% of total energy types by 2040.</p>
+	</main>
+
+	<footer>
+		<div></div>
+	</footer>
+
+	<script>
+		const runColorMode = (fn) => {
+			if (!window.matchMedia) {
+				return;
+			}
+
+			const query = window.matchMedia('(prefers-color-scheme: dark)');
+
+			fn(query.matches);
+
+			query.addEventListener('change', (event) => fn(event.matches));
+		}
+
+		runColorMode((isDarkMode) => {
+			if (isDarkMode) {
+				document.body.classList.add('dark-mode');
+			} else {
+				document.body.classList.remove('dark-mode');
+			}
+		})
+
+		document.querySelector('section div').addEventListener('click', function(){
+			if(document.body.classList.contains('dark-mode')){
+				document.body.classList.remove('dark-mode');
+			} else {
+				document.body.classList.add('dark-mode');
+			}
+		});
+	</script>
+
+
+</body></html>
